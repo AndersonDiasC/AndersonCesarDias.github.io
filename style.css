@@ -15,7 +15,6 @@ li {
 
 body {
   font-family: "Source Code Pro", monospace;
-  background-image: image("/bg.jpg") no-repeat top center;
   background-attachment: fixed;
   background-size: cover;
   display: grid;
@@ -52,6 +51,24 @@ body {
   border-radius: 50px;
   text-align: center;
   margin-top: 8rem;
+}
+
+.box_home {
+  background: #eee;
+  padding: 1rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 70px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btnHome{
+  border-radius: 80px;
+  padding: 1rem;
+  font-weight: bolder;
+  font-size: larger;
+  color: bisque;
+ background-color: blue; 
 }
 
 .profile-gif {
